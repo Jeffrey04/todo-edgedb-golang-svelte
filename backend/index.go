@@ -118,7 +118,7 @@ func update(c *gin.Context) {
 		log.Fatal(err)
 	}
 
-	//c.Status(http.StatusNoContent)
+	c.Status(http.StatusNoContent)
 }
 
 func delete(c *gin.Context) {
